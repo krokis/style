@@ -1,0 +1,4 @@
+extends: default
+schema: CORE_SCHEMA
+rules:
+  document-start: disable
