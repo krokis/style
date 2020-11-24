@@ -1,0 +1,10 @@
+[flake8]
+
+ignore =
+  E121, # continuation line under-indented for hanging indent
+  E125, # continuation line with same indent as next logical line
+  E126, # continuation line over-indented for hanging indent
+  F403, # 'from module import *' used; unable to detect undefined names
+  W504, # line break occurred after a binary operator
+
+exclude = .git
